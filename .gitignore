@@ -1,4 +1,3 @@
-/out/
 .gradle
 /build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -24,8 +23,3 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-
-*.json
-.txt
-.env
-!localTemp.json
