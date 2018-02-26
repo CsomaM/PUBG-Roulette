@@ -71,4 +71,8 @@ public class Strats {
         int n = r.nextInt(strats.size()) + 1;
         return strats.get(n - 1);
     }
+
+    public List<String> getStrats() {
+        return strats;
+    }
 }

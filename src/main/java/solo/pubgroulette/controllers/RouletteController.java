@@ -25,4 +25,10 @@ public class RouletteController {
         model.addAttribute("strat", new Strats().getRandomStrat());
         return "stratpage";
     }
+
+    @RequestMapping("rules")
+    public String rulesPage(Model model) {
+        model.addAttribute("rules", new Strats().getStrats());
+        return "rulespage";
+    }
 }
